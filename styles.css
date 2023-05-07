@@ -32,6 +32,8 @@ form input[type="text"]{
     padding: 10px;
     font-size: 18px;
     width: 60%;
+    border: 1px solid;
+    outline: none;
     border-radius: 5px;
 }
 
