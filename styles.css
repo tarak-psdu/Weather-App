@@ -30,8 +30,6 @@ form{
 
 form input[type="text"]{
     padding: 10px;
-    border: none;
-    outline: none;
     font-size: 18px;
     width: 60%;
 }
