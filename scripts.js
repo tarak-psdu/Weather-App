@@ -39,5 +39,12 @@ async function getWeatherData(cityValue){
             `<div>${detail}</div>`);
     } catch (error) {
         
+        weatherDataEl.querySelector('.icon').innerHTML = "";
+
+        weatherDataEl.querySelector('.temperature').textContent = ""
+
+        weatherDataEl.querySelector('.description').textContent = "Spelling error, Try again.";
+
+        weatherDataEl.querySelector('.details').innerHTML = ""
     }
 }
